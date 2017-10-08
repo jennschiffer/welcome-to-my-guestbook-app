@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 4em;
+  font-family: 'comic sans ms';
+  background: turquoise;
+}
+
+h1 {
+  color: white;
+  background-color: black;
+  padding:.5em;
+  margin: 0 0 1em;
+  font-size: 3em
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 1.5em;
+  background-color: white;
+}
+
+tr {
+  border: 2px solid #000;
+}
+
+td, th{
+  padding: .5em;
+  text-align: left;
+  border: 1px dotted;
+}
+
+th {
+  background-color: hotpink;
+}
+
+footer {
+  text-align: center;
+  padding: 1em;
+  font-size: 1.2em;
+  margin: 1em;
+  font-style: italic;
+}
+
+form {
+  background-color: lightgray;
+  margin: 2em 0;
+  padding: 1em;
+  border: 2px solid #000;
+}
+
+form label {
+  display: block;
+  padding: 1em;
+  border-bottom: 1px dashed #000;
+}
+
+form input[type="text"] {
+  width: 50%;
+  padding: 1em .5em; 
+  font-size:1em;
+}
+
+form input[type="submit"] {
+  margin: 1em 0 0;
+  font-size: 1em;
+}

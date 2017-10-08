@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Welcome to my Guestbook!</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- our css is in styles.css -->
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    
+    <!-- the page header - css in style.css is what makes it colorful! -->
+    <h1>WeLcOmE tO mY gUeStBoOk!!</h1>
+    
+    <!-- this table shows our guestbook entries -->
+    <table>
+      
+      <!-- this row contains the header labels of the table -->
+      <tr>
+        <th></th>
+        <th>name</th>
+        <th>twitter account</th>
+        <th>message</th>
+      </tr>
+      
+      <!-- we don't need html for the records because our javascript will do it -->
+      <!--<tr>
+        <td>1</td>
+        <td>jenn</td>
+        <td><a href="https://twitter.com/jennschiffer">@jennschiffer</a></td>
+        <td>thanks for attending my workshop wowowowow!</td>
+      </tr>-->
+      
+    </table>
+    
+    <!-- here is our form for allowing users to post to the guestbook! -->
+    <form action="postToGuestbook" method="post">
+      <h2>
+        Please say nice things to meeeee!
+      </h2>
+
+      <label for="name">
+        Name: 
+        <input id="name" name="name" type="text" placeholder="jenn" />
+      </label>
+      
+      <label for="twitter">
+        Twitter: @
+        <input id="twitter" name="twitter" type="text" placeholder="TheRock" />
+      </label>
+      
+      <label for="message">
+        Message: 
+        <input id="message" name="message" type="text" placeholder="wowowow cool text!" />
+      </label>
+      
+      <input id="submitToGuestbook" type="submit" value="Post to the Guestbook!" />
+    </form>
+    
+    <!-- add your own credit here!! -->
+    <footer>
+      &copy; 2001 jenn schiffer &bull; <a href="https://glitch.com/edit/#!/empireconf-starter-6">view the source on glitch!</a>
+    </footer>
+    
+    <!-- all the guestbook creation stuff client-side happens in guestbook.js -->
+    <script type="text/javascript" src="guestbook.js"></script>
+    
+    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+    <script type="text/javascript" src="https://button.glitch.me/button.js"></script>
+  </body>
+</html>
