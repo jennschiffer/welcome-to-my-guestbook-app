@@ -2,7 +2,7 @@
 
 This is the starter app pt 6 for the Empireconf 2017 Glitch workshop. It was built in and runs on [glitch](https://glitch.com)!
 
-In this workshop, attendees will learn about using glitch to take a static old-school guestbook page and take it full-stack so their guests can log in via twitter and leave fun nice messages!
+In this workshop, attendees will learn about using glitch to take a static old-school guestbook page and take it full-stack so their guests leave fun nice messages!
 
 In part six, we show our database entries of guestbook records instead of JSON!
 * remove json records object
